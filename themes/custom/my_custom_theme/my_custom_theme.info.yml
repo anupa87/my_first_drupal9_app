@@ -1,0 +1,25 @@
+name: custom theme
+
+type: theme
+
+description: A very basic custom theme created by Nahom
+
+base theme: false
+
+core_version_requirement: ^9
+
+version: 1.0.0
+
+libraries:
+  - my_custom_theme/global
+
+regions:
+  header: header
+
+  menu: menu
+
+  content: content
+
+  sidebar: sidebar
+
+  footer: footer

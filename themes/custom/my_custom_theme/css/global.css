@@ -1,0 +1,30 @@
+body {
+  background-color: rgb(144, 172, 121);
+}
+
+h1 {
+  color: #333;
+}
+li {
+  color: crimson;
+}
+a {
+  color: purple;
+  text-decoration: none;
+}
+
+#header {
+  background-color: rgb(163, 81, 81);
+}
+
+#menu {
+  background-color: rgb(253, 249, 249);
+}
+
+#content {
+  background-color: rgb(243, 239, 239);
+}
+
+#footer {
+  background-color: rgb(163, 81, 81);
+}
