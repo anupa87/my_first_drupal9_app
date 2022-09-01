@@ -35,3 +35,4 @@
 # for locked versions of packages.
 
 composer.lock
+/example.gitignore
