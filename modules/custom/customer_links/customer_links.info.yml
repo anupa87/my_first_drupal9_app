@@ -1,0 +1,6 @@
+name: Customer Link Module
+description: This a simple module developed for practice in classroom.
+package: Custom
+
+type: module
+core_version_requirement: ^8 || ^9

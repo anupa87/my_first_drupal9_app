@@ -1,0 +1,8 @@
+first_module.first:
+  path: "page/links"
+  defaults:
+    _controller: "\Drupal\first_module\Controller\FirstModuleController::links"
+    _title: "First Drupal 9 module practice"
+  requirements:
+    
+    
