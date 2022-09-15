@@ -1,0 +1,18 @@
+uuid: 3a47c5bb-b8e9-48b6-bba0-c9f4a730c8ca
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.user.compact
+  module:
+    - user
+_core:
+  default_config_hash: 00zr_RBdTjPjBGITD3h4c1ESQZimjdVCcHGt1trLqIY
+id: user.user.compact
+targetEntityType: user
+bundle: user
+mode: compact
+content: {  }
+hidden:
+  blog__personal_blog_link: true
+  member_for: true

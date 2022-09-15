@@ -1,0 +1,20 @@
+uuid: ab90d320-2c2a-4332-9c89-b7b96b50e46f
+langcode: en
+status: true
+dependencies:
+  theme:
+    - react_drupal
+_core:
+  default_config_hash: XRdb8LpbArVA6CpuuEZxzi50JIdjsJaCCZ5o3fH0Blk
+id: react_drupal_local_actions
+theme: react_drupal
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

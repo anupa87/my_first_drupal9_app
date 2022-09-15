@@ -1,0 +1,20 @@
+uuid: 4ae434e2-7dd3-4b44-bf3d-6ed6502199ba
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - my_custom_theme
+id: poweredbydrupal
+theme: my_custom_theme
+region: footer
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

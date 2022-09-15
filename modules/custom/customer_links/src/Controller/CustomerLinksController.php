@@ -2,7 +2,7 @@
 
  /**
   * @file
-  * Containe\Drupal\customer_links\Controller\CustomerLinksController
+  * Contain\Drupal\customer_links\Controller\CustomerLinksController
   */
 
 namespace Drupal\customer_links\Controller;
@@ -21,6 +21,49 @@ class CustomerLinksController extends ControllerBase{
         $link1 = Link::fromTextAndUrl(t('Go to block admin page'), $url1);
         $list[] = $link1;
 
-        // Go to link / admin / content
+//         // Go to link / admin / content
+
+        $url2 = Url::fromRoute('system.admin_display');
+        $link2 = Link::fromTextAndUrl(t('Go to content admin page'), $url2);
+        $list[] = $link2;
+
+       
+//          // Go to link / admin / content
+
+         $url3 = Url::fromRoute('entity.user.collection');
+         $link3 = Link::fromTextAndUrl(t('Go to content Users admin page'), $url3);
+         $list[] = $link3;
+
+         
+//        // Go to front page of website
+
+        $url4 = Url::fromRoute('<front>');
+        $link4 = Link::fromTextAndUrl(t('Go to content Users admin page'), $url4);
+        $list[] = $link4;
+        
+
+//         // External link to bc.fi
+
+        $url5 = Url::fromUri('https://bc.fi');
+        $link_options = [
+            'attribute' => [
+                'target' => '_blank',
+                'title' => 'Links to external website',
+            ],
+        ]; 
+        $link5 = Link::fromTextAndUrl(t('Go to external website'), $url5);
+        $list[] = $link5;
+
+
+//         // mount the render ouput
+
+        $output['customer_links']= [
+            '#theme' => 'item_list',
+            '#items' => $list,
+            "#title" => $this->t('Customer links as required:'),
+        ];
+
+        return $output;
     }
+
 }

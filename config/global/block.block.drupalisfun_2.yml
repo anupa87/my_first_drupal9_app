@@ -1,0 +1,25 @@
+uuid: 9a506b56-b253-4182-84ab-c5538c264efc
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:5c9e805e-dbf7-4624-9528-44aeda7252f3'
+  module:
+    - block_content
+  theme:
+    - my_custom_theme
+id: drupalisfun_2
+theme: my_custom_theme
+region: sidebar
+weight: 0
+provider: null
+plugin: 'block_content:5c9e805e-dbf7-4624-9528-44aeda7252f3'
+settings:
+  id: 'block_content:5c9e805e-dbf7-4624-9528-44aeda7252f3'
+  label: 'Drupal is fun'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

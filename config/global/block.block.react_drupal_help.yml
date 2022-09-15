@@ -1,0 +1,22 @@
+uuid: f5d39715-309f-4608-a9cb-0cc53bb03e5a
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - react_drupal
+_core:
+  default_config_hash: '-laWx8WA-ikiIEH3NJQ0hVbjqk3iEuBms91LB0B4IQU'
+id: react_drupal_help
+theme: react_drupal
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

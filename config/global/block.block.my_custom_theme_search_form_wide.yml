@@ -1,0 +1,23 @@
+uuid: cdc7b19a-2b3c-436e-ae1a-1864dc6e9835
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - my_custom_theme
+_core:
+  default_config_hash: imMyHD6LYci0gtXq56qr9ZKGHzbEG9uFydrN5EhKtSU
+id: my_custom_theme_search_form_wide
+theme: my_custom_theme
+region: header
+weight: -9
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (wide)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }
